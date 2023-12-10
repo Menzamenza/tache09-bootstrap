@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 100px;
+}
+nav{
+    background-color: rgb(255, 223, 211);
+}
+nav a:hover{
+    border-bottom: 1px solid coral;
+    color: wheat;
+}
+header{
+    background-image: url(img/header.jpg);
+    background-size: cover;
+}
+.welcome{
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+}
+.disc{
+    font-size: 2em;
+    font-weight: 400;
+    color: #fff;
+    font-style: italic;
+    margin: 2em 0;
+}
+.fa-star{
+    color: rgb(255, 255, 73);
+    width: 5px;
+    margin: 6px;
+}
+#popular::before{
+    content: '';
+
+    color: coral;
+    border-radius: 10px;
+}
