@@ -36,9 +36,15 @@ header{
     width: 5px;
     margin: 6px;
 }
-#popular::before{
+.popular::before,.temoin::before{
+    margin: 0 auto;
     content: '';
-
-    color: coral;
-    border-radius: 10px;
+    display: block;
+    width: 100px;
+    height: 20px;
+    background: coral;
+    border-radius: 20px;
+}
+footer{
+    background:rgb(255, 223, 211) ;
 }

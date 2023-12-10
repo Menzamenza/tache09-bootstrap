@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 100px;
+}
+nav{
+    background-color: rgb(255, 223, 211);
+}
+nav a:hover{
+    border-bottom: 1px solid coral;
+    color: wheat;
+}
+/* .produit::before{
+    margin: 0 auto;
+    content: '';
+    display: block;
+    width: 100px;
+    height: 20px;
+    background: coral;
+    border-radius: 20px;
+} */
+.produit{
+    background-color: rgb(254, 247, 237);
+}
