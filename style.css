@@ -45,6 +45,11 @@ header{
     background: coral;
     border-radius: 20px;
 }
+.card:hover{
+    transform: translate(10px);
+    cursor: pointer;
+    transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+}
 footer{
     background:rgb(255, 223, 211) ;
 }
