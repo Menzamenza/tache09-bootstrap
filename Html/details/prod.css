@@ -1,0 +1,35 @@
+::-webkit-scrollbar{
+    width: 5px;   
+}
+::-webkit-scrollbar-track{
+    background: white;
+}
+::-webkit-scrollbar-thumb{
+    background:coral;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 100px;
+}
+nav{
+    background-color: rgb(255, 223, 211);
+}
+nav a:hover{
+    border-bottom: 1px solid coral;
+    color: wheat;
+}
+.fa-star{
+    color: rgb(255, 255, 73);
+    width: 10px;
+    margin: 6px;
+}
+footer{
+    background:rgb(255, 223, 211) ;
+}
+.ul li{
+    list-style-type:circle;
+}

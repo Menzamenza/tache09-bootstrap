@@ -25,3 +25,76 @@ nav a:hover{
 footer{
     background:rgb(255, 223, 211) ;
 }
+p{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.bg-contact{
+    background: url(/img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carte{
+    background-color: #fff;
+    margin: 50px 0;
+    padding: 10px;
+    border-radius: 50px;
+}
+.subtitle{
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 12px;
+}
+.main-btn{
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px 27px;
+    background-color: transparent;
+    border: 2px solid gray;
+    color: gray;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.d-flex{
+    color: #fff;
+}
+.main-btn:hover{
+    background: #fd4766;
+    border-color: #fd4766;
+    color: white;
+}
+.contact_wrapper .form-control,.contact_wrapper textarea{
+    background-color: transparent;
+    border-color: #c6c9d8bf;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+label{
+    color: rgb(255, 147, 165);
+} 
+.form-control::placeholder,textarea::placeholder{
+    color: rgb(255, 147, 165);
+}
+.contact_wrapper .form-control:hover,.contact_wrapper textarea:hover,.contact_wrapper .form-control:focus,.contact_wrapper textarea:focus{
+    border-color: #fd4766;
+}
+.contact_wrapper a{
+    font-weight: 700;
+    color:#000 ;
+}
+@media screen and (max-width:768px){
+    .flexe{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
