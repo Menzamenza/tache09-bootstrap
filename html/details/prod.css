@@ -22,46 +22,16 @@ nav a:hover{
     border-bottom: 1px solid coral;
     color: wheat;
 }
-header{
-    background-image: url(/img/header.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-.welcome{
-    margin-top: 3em;
-    margin-bottom: 1.5em;
-    font-size: 3em;
-    font-weight: bold;
-    color: #fff;
-}
-.disc{
-    font-size: 2em;
-    font-weight: 400;
-    color: #fff;
-    font-style: italic;
-    margin: 2em 0;
-}
 .fa-star{
     color: rgb(255, 255, 73);
-    width: 5px;
+    width: 10px;
     margin: 6px;
-}
-.popular::before,.temoin::before{
-    margin: 0 auto;
-    content: '';
-    display: block;
-    width: 100px;
-    height: 20px;
-    background: coral;
-    border-radius: 20px;
-}
-.card:hover{
-    transform: translate(5px);
-    cursor: pointer;
-    transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
 }
 footer{
     background:rgb(255, 223, 211) ;
+}
+.ul li{
+    list-style-type:circle;
 }
 .fab{
     color:rgb(153, 108, 92) ;
@@ -76,3 +46,17 @@ footer{
     cursor: pointer;
     transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
 }
+@media screen and (max-width:768px){
+    .row{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+ }

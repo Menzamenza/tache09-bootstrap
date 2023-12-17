@@ -70,6 +70,19 @@ body{
 .sign:hover{
     text-decoration: underline;
 }
+.fab{
+    color:rgb(153, 108, 92) ;
+    border: 1px solid rgb(255, 223, 211) ;
+    border-radius: 5px;
+    padding: 5px;
+    background: #fff;
+}
+.fab:hover{
+    box-shadow: 5px 5px 10px;
+    transform: translate(2px);
+    cursor: pointer;
+    transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+}
 @media screen and (max-width:768px){
    .shadow{
     width: 80%;
