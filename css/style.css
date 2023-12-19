@@ -23,7 +23,7 @@ nav a:hover{
     color: wheat;
 }
 header{
-    background-image: url(img/header.jpg);
+    background-image: url(/img/header.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
