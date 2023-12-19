@@ -43,7 +43,7 @@
     opacity: 0.8;
 }
 body{
-    background: url(/img/Signup.jpg);
+    background: url("../img/Signup.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
