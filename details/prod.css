@@ -52,11 +52,17 @@ footer{
         flex-direction: column;
         text-align: center;
     }
-    .d-flex{
+    .flexe{
         display: flex;
         flex-direction: column;
         gap: 5px;
         align-items: center;
         justify-content: center;
+    }
+    .sign{
+        margin-top: 5px;
+        margin-left: 0;
+        margin-bottom: 5px;
+        text-align: center;
     }
  }
