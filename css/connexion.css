@@ -44,6 +44,7 @@
 }
 body{
     background: url("../img/Signup.jpg");
+    background-attachment: fixed;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,6 +88,6 @@ body{
 @media screen and (max-width:768px){
    .shadow{
     width: 80%;
-    margin-top: 30%;
+    margin-top: 40%;
    } 
 }
